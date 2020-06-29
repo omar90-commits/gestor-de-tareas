@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 5rem;
+}
+
+.header p {
+	font-weight: 600;
+	color: #595959;
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+.section form {
+	border: 1px solid #E5E5E5;
+	width: 80%;
+}
+
+.section .form-control {
+	background-color: #F7F7F9;
+	border-radius: 0;
+	transition: all ease-in .1s;
+}
+
+.section .form-control:focus {
+	border: 4px solid rgb(198, 198, 198);
+	box-shadow: 1px 1px transparent;
+}
+
+.boton {
+	background-color: #070707;
+	color: white;
+	border-radius: 0;
+}
+
+.asignacion-tareas {
+	border: 1px solid #E5E5E5;
+	margin-bottom: 1rem;
+}
+
+.asignacion-tareas p {
+	color: #919AA1;
+}
+
+.asignacion-tareas button {
+	border-radius: 0;
+}
+
+.alert-danger {
+	background-color: #D12A39;
+	color: white;
+}
+
+.alert-warning {
+	background-color: #F3CE58;
+	color: white;
+}
+
+.alert {
+	padding-left: 32px;
+}
+
+@media (min-width: 395px) {
+	.w-100 {
+		width: 300px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.w-100 {
+		width: 75% !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.w-100 {
+		width: 65% !important;
+	}
+}
